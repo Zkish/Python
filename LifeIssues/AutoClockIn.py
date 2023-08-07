@@ -55,9 +55,16 @@ while cap.isOpened():
     # Display the frame with face recognition
     cv2.imshow('Face Recognition', frame)
 
+        # # clock the person whos face appeared in.
+    # if known_face_names == "":
+    #     # put the clock in info here and the name of person in the parenthesis.
+    #     break
+    # # add in more if statements and elif statements for however many people there are that should be clocking in.
+
     # Exit the loop when 'q' key is pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+
 
 # Release the video capture and close the window
 cap.release()
