@@ -1,5 +1,5 @@
 # intro / choice maker
-print("your calculator choices are: MinuteCalc, CelsiusToFahrenheit, and ")
+print("your calculator choices are: MinuteCalc, CelsiusToFahrenheit, and KiloToMph")
 choice = input("Which calculator would you like to use?\n")
 # hours to minutes
 if choice == "MinuteCalc":
@@ -14,3 +14,8 @@ elif choice == "CelsiusToFahrenheit":
     CtoF = celsius * 1.8 + 32
     print("Your celsius to Fahrenheit calculation would be: ", CtoF, " degrees fahrenheit.")
     exit()
+    # kilometers to MPH
+elif choice == "KiloToMph":
+    kilo = int(input("kilometers to be calculated into MPH:\n"))
+    mph = kilo / 1.609344
+    print("Your specified kilometers calculated into MPH is: ", mph, " mph")
