@@ -18,7 +18,7 @@ def detect_faces(image):
     return image
 
 # Load an image from file
-image_path = '/Users/zkish/Desktop/alotPeople.jpg'
+image_path = '/Users/zkish/Desktop/CodeImages/alotPeople.jpg'
 image = cv2.imread(image_path)
 
 # Perform face detection on the image
