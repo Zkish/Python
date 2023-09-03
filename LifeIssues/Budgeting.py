@@ -51,5 +51,5 @@ if selection == "B":
     after = monthtlyIncome - rent - utilites - car - insurance - subscriptions - groceries - gasForcar - entertainment - eatingOut - badHabits - randomShopping - longTerm - shortTerm - investments
     print("total after this expense: ", after)
     # total / leftover
-    afterAll = # add in here something that will show how much was overages or how much money is leftover after all the expenses.
+    # afterAll = # add in here something that will show how much was overages or how much money is leftover after all the expenses.
     print("after all expenses you have this much left over or this much you need to adjust with your budget: ", afterAll)
