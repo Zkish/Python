@@ -34,7 +34,7 @@ if selection == "B":
     eatingOut = int(input("eating out: "))
     after = monthtlyIncome - rent - utilites - car - insurance - subscriptions - groceries - gasForcar - entertainment - eatingOut
     print("total after this expense: ", after)
-    badHabits = int(input("baf habits: "))
+    badHabits = int(input("bad habits: "))
     after = monthtlyIncome - rent - utilites - car - insurance - subscriptions - groceries - gasForcar - entertainment - eatingOut - badHabits
     print("total after this expense: ", after)
     randomShopping = int(input("random things throughout the month: "))
