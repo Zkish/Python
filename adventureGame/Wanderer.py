@@ -1,11 +1,5 @@
+#imports
 import random
-
-worldchoices = ["No sea Life", "has water", "no water", "has sea life", "has land life", "no land life", "mountains", "mostly flat"]
-worldMakeup = 4
-ActualWorld = random.sample(worldchoices, worldMakeup)
-
-print(ActualWorld)
-
 # selecting character stats
 # starting stat points
 statpoints = 24
@@ -40,12 +34,18 @@ characterStats = strength, perception, endurance, charisma, intelligence,agility
 print(" S ", "P ", "E ", "C ", "I ", "A ", "L ")
 print(characterStats)
 print("\n")
-
 # into the actual world
 print("You Wander into the vast wasteland of Pittsburgh emerging from your shelter 78 days after the bombs fell")
 print("do you want to scavenge your house for items before traveling onwards?")
 onwards = input("(y,n)")
 if onwards == "y":
+    encounters = ["wounded dog", "raider"]
+    actualEncounter = random.choice(encounters)
     print("you scavenge your house in search of finding some useful items")
+    print("along your journey out into the wasteland you ecounter a ", actualEncounter, "do you investigate further or go a seperate direction?")
+    encounterchoice = input("investigate, move: ")
+    if actualEncounter == "wounded dog" and encounterchoice == "investigate":
+        print("would you like to heal the wounded dog?")
+        dogchoice = input("y/n: ")
 elif onwards == "n":
     print("you go into the vast wasteland in search of items and your destiny")

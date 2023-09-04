@@ -1,7 +1,8 @@
+import numpy as np
 import random
 
-worldchoices = ["No sea Life", "has water", "no water", "has sea life", "has land life", "no land life", "mountains", "mostly flat"]
-worldMakeup = 4
-ActualWorld = random.sample(worldchoices, worldMakeup)
+arr1 = np.random.randint(1, 100, size=100)
+print(arr1)
 
-print(ActualWorld)
+mean = arr1.mean()
+print("the average of the dataset is: ", mean)
