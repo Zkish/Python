@@ -34,9 +34,13 @@ characterStats = strength, perception, endurance, charisma, intelligence,agility
 print(" S ", "P ", "E ", "C ", "I ", "A ", "L ")
 print(characterStats)
 print("\n")
+
+
 # into the actual world
 print("You Wander into the vast wasteland of Pittsburgh emerging from your shelter 78 days after the bombs fell")
 print("do you want to scavenge your house for items before traveling onwards?")
+
+# first encounters
 onwards = input("(y,n)")
 if onwards == "y":
     encounters = ["wounded dog", "raider"]
@@ -44,8 +48,18 @@ if onwards == "y":
     print("you scavenge your house in search of finding some useful items")
     print("along your journey out into the wasteland you ecounter a ", actualEncounter, "do you investigate further or go a seperate direction?")
     encounterchoice = input("investigate, move: ")
-    if actualEncounter == "wounded dog" and encounterchoice == "investigate":
+
+    while actualEncounter == "wounded dog" and encounterchoice == "investigate":
         print("would you like to heal the wounded dog?")
         dogchoice = input("y/n: ")
-elif onwards == "n":
+        if dogchoice == "y":
+            print("you saved the dog")
+        elif dogchoice == "n":
+            print("you let the dog die in agony")
+        break
+    print("after dealing with the dog you decide to go down to the local diner to try and find some canned food to ear.")
+    print("while at the diner you see something in the distance.")
+
+while onwards == "n":
     print("you go into the vast wasteland in search of items and your destiny")
+    break

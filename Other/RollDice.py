@@ -1,13 +1,13 @@
-import random as random
+import random
 
-dice = random.randint(1, 6)
-print("The number you rolled is:\n", dice)
+sides = int(input("how many sides do you want the dice to have: "))
+print("your dice has ", sides, " sides")
 
 while True:
-    again = input("would you like to roll again? (y/n): ")
+    diceroll = random.randint(1, sides)
+    print("would you like to roll the dice?")
+    again = input("y/n: ")
     if again == "y":
-        dice = random.randint(1, 6)
-        print("The number you rolled is:\n", dice)
-        continue
-    else:
+        print(diceroll)
+    elif again == "n":
         exit()
