@@ -1,0 +1,37 @@
+[
+	{
+        "model": "Kia",
+		"color": "red",
+		"value": "#f00"
+	},
+	{
+        "model": "Chevrolet",
+		"color": "green",
+		"value": "#0f0"
+	},
+	{
+        "model": "Toyota",
+		"color": "blue",
+		"value": "#00f"
+	},
+	{
+        "model": "Honda",
+		"color": "cyan",
+		"value": "#0ff"
+	},
+	{
+        "model": "Jeep",
+		"color": "magenta",
+		"value": "#f0f"
+	},
+	{
+        "model": "Ford",
+		"color": "yellow",
+		"value": "#ff0"
+	},
+	{
+        "model": "Tesla",
+		"color": "black",
+		"value": "#000"
+	}
+]
