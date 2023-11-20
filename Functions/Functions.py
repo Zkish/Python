@@ -20,16 +20,19 @@ def count_elements(lst):
 # adding numbers
 def add_numbers(x, y):
     result = x + y
+    print(result)
     return result
 
 # subtracting numbers
 def subtract_numbers(x, y):
     result = x - y
+    print(result)
     return result
 
 # dividing numbers
 def divide_numbers(x, y):
     result = x / y
+    print(result)
     return result
 
 # DataReader Function
@@ -40,4 +43,5 @@ def datareader(file):
 # Find Length of  a String
 def Find_length(input_string):
     length = len(input_string.replace(" ", ""))
+    print(length)
     return length

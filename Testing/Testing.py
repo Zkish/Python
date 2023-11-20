@@ -1,7 +1,7 @@
-from Classes import *
-from Functions import *
-
-# CUSTOMER 1
-Customer = Customer("zachary", 21 , "3012 belleville st")
-print(Customer.name)
-print(Customer.address)
+import random
+from Functions import RandomNumber
+while True:
+    x = RandomNumber()
+    if x ==  71:
+        exit()
+    continue

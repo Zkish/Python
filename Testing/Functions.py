@@ -1,3 +1,6 @@
+import numpy as np
+import random
+
 # My Functions Page
 
 # removing duplicates
@@ -41,3 +44,8 @@ def datareader(file):
 def Find_length(input_string):
     length = len(input_string.replace(" ", ""))
     return length
+
+def RandomNumber():
+    result = random.randint(1, 100)
+    print(result)
+    return result
