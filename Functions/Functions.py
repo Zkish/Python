@@ -16,3 +16,28 @@ def count_elements(lst):
     for element in lst:
         element_count[element] = element_count.get(element, 0) + 1
     return element_count
+
+# adding numbers
+def add_numbers(x, y):
+    result = x + y
+    return result
+
+# subtracting numbers
+def subtract_numbers(x, y):
+    result = x - y
+    return result
+
+# dividing numbers
+def divide_numbers(x, y):
+    result = x / y
+    return result
+
+# DataReader Function
+def datareader(file):
+    for x in file:
+        print(x)
+
+# Find Length of  a String
+def Find_length(input_string):
+    length = len(input_string.replace(" ", ""))
+    return length

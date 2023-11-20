@@ -14,3 +14,4 @@ Temperature = random.sample(worldTemperature, sampler)
 world = Terrain + Temperature + Water + Land
 
 print(world)
+
