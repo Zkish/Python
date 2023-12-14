@@ -47,7 +47,7 @@ def linear_regression_prediction(stock_data):
 # change these settings to see other stocks and date ranges
 if __name__ == "__main__":
     ticker_symbol = 'AAPL'  # Replace with the desired stock symbol
-    start_date = '2023-9-1'
+    start_date = '2022-9-1'
     end_date = '2023-12-14'
 
     # Fetch historical stock data
